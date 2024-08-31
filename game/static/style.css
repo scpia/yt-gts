@@ -1,0 +1,27 @@
+html {
+  background-color: #0b132b;
+}
+.content {
+  background-color: #0b132b !important;
+}
+.navbar {
+  background-color: #3a506b !important; /* Dunkler Hintergrund */
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #5bc0be !important; /* Gelber Text */
+}
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #6fffe9 !important;
+  border: solid 1px #6fffe9; /* Hellere Gelbtöne beim Hover */
+  box-shadow: 2px 2px #6fffe9;
+}
+
+.page_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

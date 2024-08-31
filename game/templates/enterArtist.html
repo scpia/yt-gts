@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block header %}
+<h1>{% block title %}Geben sie einen Künstler ein{% endblock %}</h1>
+{% endblock %} {% block content %}
+<form action="/guessLyrics" method="POST">
+  <label for="artist">Artist Name:</label>
+  <input type="text" id="artist" name="artist" />
+  <button type="submit">Get Lyrics</button>
+</form>
+{% endblock %}

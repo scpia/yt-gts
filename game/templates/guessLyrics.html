@@ -1,0 +1,8 @@
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='guessLyrics.css') }}"
+/>
+{% extends 'base.html' %} {% block content %}
+<span>{{artist}}</span>
+<textarea class="showLyrics">{{lyrics}}</textarea>
+{% endblock %}
